@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    height: 70px;
+    background-color: #F25C05;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  nav p{
+    color: white;
+    display: flex;
+    padding:10px;
+    flex-wrap: nowrap;
+    
+  }
+
+  nav img{
+    width:70px;
+    display: flex;
+    padding: 0 10px;
+    flex-wrap: nowrap;
+  }
