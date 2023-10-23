@@ -1,9 +1,9 @@
-import Navbar from './Components/Navbar.jsx';
+import Login from "./Views/Login";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Login />
       
     </div>
   );
