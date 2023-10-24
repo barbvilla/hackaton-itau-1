@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-}
+    }
 
 .loginform {
     display: flex;
@@ -23,4 +23,5 @@
     display:flex;
     justify-content: end;
     width: 800px;
+    height: 100vh
 }

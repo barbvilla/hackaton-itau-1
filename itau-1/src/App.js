@@ -10,3 +10,17 @@ function App() {
 }
 
 export default App;
+
+/*import Security from "./Views/Security";
+import Login from "./Views/Security";
+
+function App() {
+  return (
+    <div className="App">
+      <Security />
+      
+    </div>
+  );
+}
+
+export default App;*/
