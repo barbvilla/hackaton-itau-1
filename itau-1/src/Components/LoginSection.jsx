@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import {  signInWithEmailAndPassword   } from 'firebase/auth';
+import {  signInWithEmailAndPassword , sendEmailVerification } from 'firebase/auth';
 import { auth } from '../firebase';
-import { NavLink, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import './LoginSection.css'
 
 export const LoginSection = () => {
@@ -14,7 +14,8 @@ export const LoginSection = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        navigate("/home")
+        sendEmailVerification(auth.currentUser);
+        navigate("/chatbot")
         console.log(user);
       })
       .catch((error) => {
@@ -28,11 +29,23 @@ export const LoginSection = () => {
     <section className="login">
       <div className="loginform">
         <h2>Iniciar sesión</h2>
-        <form>
+        <form action='submit'>
           <label>Correo</label>
-          <input id="email "name="email" type="email" required placeholder="Email address" onChange={(e)=>setEmail(e.target.value)} />                           
+          <input 
+            id="email"
+            name="email"
+            type="email" 
+            required
+            placeholder="Email address"
+            onChange={(e)=>setEmail(e.target.value)} />                           
           <label>Contraseña</label>
-          <input id="password" name="password" type="password" required placeholder="Password" onChange={(e)=>setPassword(e.target.value)} />
+          <input
+          id="password"
+          name="password"
+          type="password"
+          required
+          placeholder="Password"
+          onChange={(e)=>setPassword(e.target.value)} />
           <input type="button" className='button-login' value='Ingresar' onClick={onLogin} />
         </form>
       </div>
