@@ -6,16 +6,20 @@ const LoginSection = () => {
 
     <section className="login">
       <div className="loginform">
+      <h1>
+        Bienvenido al <br /> asistente virtual.
+      </h1>
         <h2>Iniciar sesión</h2>
         <form action="submit">
-          <label>Correo</label>
+          <p>Correo</p>
           <input type="email" />
-          <label>Contraseña</label>
+          <p>Contraseña</p>
           <input type="password" />
+          <br/>
           <input type="button" className='button-login' value='Ingresar'/>
         </form>
       </div>
-      <div>
+      <div class='img-container'>
         <img alt='personas-felices' src='loginimg.jpg' className='img-login'></img>
       </div>
     </section>

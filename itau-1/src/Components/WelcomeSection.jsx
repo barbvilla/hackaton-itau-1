@@ -3,7 +3,7 @@ import './WelcomeSection.css';
 const WelcomeSection = () => {
   return (
     <>
-    <h1>¡Te damos la bienvenida a iBot!</h1>
+    <h1 class='bienvenida'>¡Te damos la bienvenida a iBot!</h1>
     <div class='btn-section'>
     <img alt='botón chatbot' src='asistencia-btn.png' class='btn-chatbot'></img>
     </div>
