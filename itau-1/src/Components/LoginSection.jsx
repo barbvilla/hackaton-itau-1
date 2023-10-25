@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {  signInWithEmailAndPassword , sendEmailVerification } from 'firebase/auth';
+import {  signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
 import { useNavigate } from 'react-router-dom'
 import './LoginSection.css'
@@ -14,8 +14,8 @@ export const LoginSection = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        sendEmailVerification(auth.currentUser);
-        navigate("/chatbot")
+        /* sendEmailVerification(auth.currentUser); */
+        navigate("/welcome")
         console.log(user);
       })
       .catch((error) => {

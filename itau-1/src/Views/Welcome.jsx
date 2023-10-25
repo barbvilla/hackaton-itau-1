@@ -1,7 +1,10 @@
+import Navbar from "../Components/Navbar"
+import WelcomeSection from "../Components/WelcomeSection"
 export default function Welcome() {
     return (
         <>
-        <h1>Welcome</h1>
+        <Navbar />
+        <WelcomeSection />
         </>
     )
 }
