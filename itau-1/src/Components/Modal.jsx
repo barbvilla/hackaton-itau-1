@@ -1,14 +1,18 @@
+import { useState } from 'react';
 import './Modal.css';
 
 const Modal = () => {
- 
+  const [showModal, setShowModal] = useState(false)
 
-  
+  const toggleModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <>
       <div class='modal'>
         <div class='cerrar-container'>
-          <button class='cerrar'>X</button>
+          <button class='cerrar' onClick={toggleModal}>X</button>
         </div>
         <h1>Error al iniciar</h1>
         <ul>

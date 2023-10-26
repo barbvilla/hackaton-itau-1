@@ -9,6 +9,7 @@ export const LoginSection = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showModal, setShowModal] = useState(false)
 
   const onLogin = (e) => {
     e.preventDefault();
@@ -19,6 +20,7 @@ export const LoginSection = () => {
         navigate("/welcome")
       })
       .catch((error) => {
+        setShowModal(true);
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(errorCode, errorMessage)
@@ -27,7 +29,7 @@ export const LoginSection = () => {
 
   return (
     <section className="login">
-      <Modal />
+      { showModal && (<Modal onclick={this.toggleModal} />) }
       <div className="loginform">
         <h1>
           Bienvenido al <br /> asistente virtual.
