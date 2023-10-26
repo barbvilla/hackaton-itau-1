@@ -12,11 +12,13 @@ const LoginSection = () => {
         <h2>Iniciar sesión</h2>
         <form action="submit">
           <p>Correo</p>
-          <input type="email" />
+          <input type="email" placeholder='Ejemplo@itau.cl' />
           <p>Contraseña</p>
-          <input type="password" />
+          <input type="password" placeholder='Ingresa contraseña'/>
           <br/>
-          <input type="button" className='button-login' value='Ingresar'/>
+          <input type="button" id='button-login' value='Ingresar'/>
+          <hr/>
+          <input type="button" id='button-problem' value='Tengo problemas para acceder'/>
         </form>
       </div>
       <div class='img-container'>
