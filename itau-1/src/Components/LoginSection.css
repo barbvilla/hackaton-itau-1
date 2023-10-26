@@ -12,7 +12,73 @@
     justify-content: center;
     margin: 0 50px;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .button-login {
+    margin: 10px 0;
+    width: 100px;
+    height: 30px;
+  }
+  
+  .img-container{
+    width: 800px;
+    overflow: hidden;
+  }
+  .img-login {
+    display: flex;
+    justify-content: flex-end;
+    width: 915px;
+  }
+  
+  .loginform h2 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .loginform h1{
+    font-size:40px;
+    margin-left: -35px;
+    line-height: 45px;
+    padding: 30px;
+   
+  }
+
+  .button-login{
+    margin-top:10px;
+    width:300px;
+    background-color: #003399;
+    color:white;
+    border: none;
+    height: 40px;
+  }
+
+  input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #b6b6b6;
+  }
 .button-login {
     margin: 10px 0;
     width: 100px;

@@ -16,7 +16,6 @@ export const LoginSection = () => {
         const user = userCredential.user;
         /* sendEmailVerification(auth.currentUser); */
         navigate("/welcome")
-        console.log(user);
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -46,7 +45,7 @@ export const LoginSection = () => {
           required
           placeholder="Password"
           onChange={(e)=>setPassword(e.target.value)} />
-          <input type="button" className='button-login' value='Ingresar' onClick={onLogin} />
+          <input id="sign-in-button" type="button" className='button-login' value='Ingresar' onClick={onLogin} />
         </form>
       </div>
       <div>
