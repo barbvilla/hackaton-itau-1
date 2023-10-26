@@ -1,12 +1,6 @@
-import { useState } from 'react';
 import './Modal.css';
 
-const Modal = () => {
-  const [showModal, setShowModal] = useState(false)
-
-  const toggleModal = () => {
-    setShowModal(false);
-  };
+const Modal = ({toggleModal}) => {
 
   return (
     <>
