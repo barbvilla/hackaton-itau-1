@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import {  signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../firebase';
 import { useNavigate } from 'react-router-dom'
+import Modal from './Modal'
 import './LoginSection.css'
 
 export const LoginSection = () => {
@@ -26,25 +27,29 @@ export const LoginSection = () => {
 
   return (
     <section className="login">
+      <Modal />
       <div className="loginform">
+        <h1>
+          Bienvenido al <br /> asistente virtual.
+        </h1>
         <h2>Iniciar sesión</h2>
         <form action='submit'>
-          <label>Correo</label>
-          <input 
+          <p>Correo</p>
+          <input
             id="email"
             name="email"
-            type="email" 
+            type="email"
             required
             placeholder="Email address"
-            onChange={(e)=>setEmail(e.target.value)} />                           
-          <label>Contraseña</label>
+            onChange={(e) => setEmail(e.target.value)} />
+          <p>Contraseña</p>
           <input
-          id="password"
-          name="password"
-          type="password"
-          required
-          placeholder="Password"
-          onChange={(e)=>setPassword(e.target.value)} />
+            id="password"
+            name="password"
+            type="password"
+            required
+            placeholder="Password"
+            onChange={(e) => setPassword(e.target.value)} />
           <input id="sign-in-button" type="button" className='button-login' value='Ingresar' onClick={onLogin} />
         </form>
       </div>
