@@ -29,6 +29,7 @@
   .img-container{
     width: 800px;
     overflow: hidden;
+    display: flex;
   }
   .img-login {
     display: flex;
