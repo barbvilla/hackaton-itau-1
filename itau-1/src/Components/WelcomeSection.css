@@ -20,24 +20,27 @@
   justify-content: center;
   width: 280px;
   padding: 40px 0;
-  margin-bottom: 20px;
 }
-.squares{
+.squares {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* Nueva propiedad para permitir el ajuste automático en una nueva línea */
+  margin: 30 0px;
 }
 
-.square-1, .square-2{
-  padding:20px 30px;
-  margin:0 30px;
+.square-1, .square-2 {
+  flex: 1; /* Esta propiedad hace que los cuadrados se expandan para llenar el contenedor */
+  max-width: 400px; /* Establece un ancho máximo para los cuadrados */
+  min-width:200px;
+  margin: 10px 15px; /* Espacio entre los cuadrados */
+  padding: 20px 30px;
   background-color: #F5F5F5;
-  border-radius:25px;
+  border-radius: 25px;
   align-items: center;
   justify-content: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  width:400px;
-
+  margin: 10px 20px 50px 20px;
 }
 
 /* .titulo{
@@ -62,6 +65,25 @@
 }
 
 .info hr{
-width: 400px;
-margin-left: -30px;
+max-width: 400px;
+border-color: #fafafa5f;
+}
+
+@media (max-width: 1250px) {
+
+  .bienvenida{
+  padding-bottom:20px;
+  }
+
+.squares{
+  margin: 0px 20px 100px 20px;
+}
+
+.square-1, .square-2 {
+  margin: 20px 20px 10px 20px;
+}
+
+.btn-chatbot{
+  padding:10px 0;
+}
 }

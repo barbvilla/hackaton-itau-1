@@ -79,6 +79,10 @@
     font-size: 14px;
     color:rgb(83, 83, 83);
   }
+
+  .login form hr{
+    border-color: #fafafa92;
+  }
   @media (max-width: 1250px) {
     .img-container {
       display: none;
