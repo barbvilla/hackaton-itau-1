@@ -1,7 +1,13 @@
-export default function Verification() {
+
+import Navbar from "../Components/Navbar"
+import SecuritySection from "../Components/SecuritySection"
+
+export default function Security() {
     return (
         <>
-        <h1>Verification</h1>
+        <Navbar />
+        <SecuritySection />
+
         </>
     )
 }
