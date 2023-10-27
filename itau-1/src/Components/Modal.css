@@ -21,11 +21,12 @@
     /* visibility: hidden; */
   }
 
-  .modal h1,  button{
+  .modal h1{
     display: flex;
   }
 
-  button{
+  .modal button{
+    display: flex;
     background-color: white;
     margin-top: 20px;
     font-size: 15px;
