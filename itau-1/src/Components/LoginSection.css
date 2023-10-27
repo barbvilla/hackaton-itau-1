@@ -1,17 +1,3 @@
-.login {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.loginform {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 50px;
-}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -34,15 +20,10 @@
     flex-wrap: wrap;
   }
   
-  .button-login {
-    margin: 10px 0;
-    width: 100px;
-    height: 30px;
-  }
-  
   .img-container{
-    width: 800px;
+    width: 820px;
     overflow: hidden;
+    display: flex;
   }
   .img-login {
     display: flex;
@@ -55,38 +36,60 @@
     margin-bottom: 10px;
   }
 
+  .loginform p{
+    margin-bottom: -7px;
+  }
+
   .loginform h1{
-    font-size:40px;
+    font-size:35px;
     margin-left: -35px;
     line-height: 45px;
     padding: 30px;
    
   }
 
-  .button-login{
+  #button-login{
     margin-top:10px;
-    width:300px;
     background-color: #003399;
     color:white;
     border: none;
     height: 40px;
+    font-size:14px;
   }
 
-  input{
-    width: 300px;
-    height: 30px;
+  .loginform input{
+    width: 380px;
+    height: 35px;
     margin: 10px 0;
     border-radius: 10px;
     border: 2px solid #b6b6b6;
   }
-.button-login {
-    margin: 10px 0;
-    width: 100px;
-    height: 30px;
-}
+  ::placeholder {
+    color: #b6b6b6;
+    padding-left:20px;
+    font-size: 14px;
+  }
+  .loginform hr{
+    margin: 20px 0;
+    border: 0,5px;
+  }
 
-.img-login{
-    display:flex;
-    justify-content: end;
-    width: 800px;
-}
+  #button-problem{
+    background-color: white;
+    font-size: 14px;
+    color:rgb(83, 83, 83);
+  }
+
+  .login form hr{
+    border-color: #fafafa92;
+  }
+  @media (max-width: 1250px) {
+    .img-container {
+      display: none;
+    }
+  
+    .loginform input {
+      width: 250px;
+      max-width: 250px; /* Asegura que no se extienda más allá de 250px */
+    }
+  }

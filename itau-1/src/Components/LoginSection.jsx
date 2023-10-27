@@ -35,6 +35,7 @@ export const LoginSection = () => {
     <section className="login">
       { showModal && (<Modal toggleModal={toggleModal} />) }
       <div className="loginform">
+
         <h1>
           Bienvenido al <br /> asistente virtual.
         </h1>
@@ -59,7 +60,7 @@ export const LoginSection = () => {
           <input id="sign-in-button" type="button" className='button-login' value='Ingresar' onClick={onLogin} />
         </form>
       </div>
-      <div>
+      <div class='img-container'>
         <img alt='personas-felices' src='loginimg.jpg' className='img-login'></img>
       </div>
     </section>

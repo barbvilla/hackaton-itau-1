@@ -1,5 +1,6 @@
 import './Modal.css';
 
+
 const Modal = ({toggleModal}) => {
 
   return (
@@ -17,6 +18,7 @@ const Modal = ({toggleModal}) => {
         <div class='btn-asistencia'>
           <button>Pedir asistencia en línea</button>
         </div>
+
       </div>
     </>
   )

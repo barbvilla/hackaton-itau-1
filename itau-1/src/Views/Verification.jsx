@@ -1,3 +1,4 @@
+
 import Navbar from "../Components/Navbar"
 import SecuritySection from "../Components/SecuritySection"
 
@@ -6,6 +7,7 @@ export default function Security() {
         <>
         <Navbar />
         <SecuritySection />
+
         </>
     )
 }

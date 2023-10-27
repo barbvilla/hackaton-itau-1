@@ -12,29 +12,36 @@
 
 .bienvenida{
   padding: 30px;
+  font-size: 40px;
 }
 .btn-chatbot{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 250px;
+  width: 280px;
   padding: 40px 0;
+  cursor: pointer;
 }
-.squares{
+.squares {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* Nueva propiedad para permitir el ajuste automático en una nueva línea */
+  margin: 30 0px;
 }
 
-.square-1, .square-2{
-  padding:20px 30px;
-  margin:0 20px;
+.square-1, .square-2 {
+  flex: 1; /* Esta propiedad hace que los cuadrados se expandan para llenar el contenedor */
+  max-width: 400px; /* Establece un ancho máximo para los cuadrados */
+  min-width:200px;
+  margin: 10px 15px; /* Espacio entre los cuadrados */
+  padding: 20px 30px;
   background-color: #F5F5F5;
-  border-radius:25px;
+  border-radius: 25px;
   align-items: center;
   justify-content: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+  margin: 10px 20px 50px 20px;
 }
 
 /* .titulo{
@@ -42,12 +49,42 @@
 
 } */
 
-h3{
+.titulo h3{
   /* color:white; */
   font-size: 15px;
   padding-bottom:5px;
 }
 
-li{
+.info li{
   margin: 5px 0;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.info{
+  padding:10px 0;
+}
+
+.info hr{
+max-width: 400px;
+border-color: #fafafa5f;
+}
+
+@media (max-width: 1250px) {
+
+  .bienvenida{
+  padding-bottom:20px;
+  }
+
+.squares{
+  margin: 0px 20px 100px 20px;
+}
+
+.square-1, .square-2 {
+  margin: 20px 20px 10px 20px;
+}
+
+.btn-chatbot{
+  padding:10px 0;
+}
 }

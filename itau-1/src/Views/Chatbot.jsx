@@ -1,3 +1,4 @@
+
 import Navbar from '../Components/Navbar';
 import ChatbotSection from '../Components/chatbotSection';
 import RobotIn from '../Components/Chat-inventory';
