@@ -2,6 +2,7 @@
 import Navbar from '../Components/UserNavbar';
 import ChatbotSectionUno from '../Components/chatbotSectionUno';
 import ChatbotSectionDos from '../Components/chatbotSectionDos';
+import ChatbotSectionTres from '../Components/chatbotSectionTres'
 import RobotIn from '../Components/Chat-inventory';
 import RobotReInc from '../Components/Chat-req-inc';
 import './chat.css'
@@ -25,7 +26,11 @@ export default function ChatBot() {
           <ChatbotSectionDos />
         <div className='chatbox'>
         <div className='chat-2'><RobotReInc /></div>
-          
+        </div>
+        </div>
+        <div className='chat-section'>
+          <ChatbotSectionTres />
+        <div className='chatbox'>
         </div>
         </div>
       </div>

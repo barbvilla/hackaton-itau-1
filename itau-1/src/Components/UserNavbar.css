@@ -13,6 +13,7 @@ nav{
   flex-wrap: nowrap;
   width: 100%;
   position: fixed;
+  z-index: 1000;
 }
 
 nav p{
@@ -42,6 +43,7 @@ footer{
   position: fixed;
   bottom: 0;
   padding-top: 10px;
+  z-index: 1000
 }
 .logOut{
   width: 40px;

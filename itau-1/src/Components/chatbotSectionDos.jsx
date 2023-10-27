@@ -17,7 +17,7 @@ const ChatbotSectionDos = () =>{
             <p>Cuando obtengas tus datos</p>
             <h3>Continúa al paso 3</h3>
             </div>
-            <img src='next.png' alt='next' class='next'></img>
+            <a href="#vistapaso-3"><img src='next.png' alt='next' class='next' ></img></a>
           </div>
         </div>
       </div>
