@@ -1,8 +1,8 @@
-.todo{
+/* .todo{
     display:flex;
     flex-direction: column;
     width: 50%;
-}
+} */
 
 html {
     scroll-behavior: smooth;
@@ -15,8 +15,8 @@ html {
     text-align:center;
     flex-direction: column;
     align-items: center;
-    margin-top:250px;
-    margin-left:px;
+    margin-top:150px;
+    margin-left:50px;
 }
 
 .paso-1{
@@ -24,6 +24,7 @@ html {
     display: flex;
     text-align:center;
     flex-direction: column;
+    margin-top:-50px;
 }
 
 .paso-1 h1{
@@ -55,3 +56,28 @@ html {
     margin:0 20px;
 
 }
+
+
+@media (max-width: 1250px) {
+   .siguiente{
+    display:none;
+   }
+
+   .info{
+    margin:120px 0 -40px 0;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .paso-1{
+    width: 60%;
+   }
+
+
+   .paso-1 h1{
+    font-size: 20px;
+    margin-bottom: -20px;
+   }
+
+
+  }

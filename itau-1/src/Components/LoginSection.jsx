@@ -47,7 +47,7 @@ export const LoginSection = () => {
             name="email"
             type="email"
             required
-            placeholder="Email address"
+            placeholder='Ejemplo@itau.cl'
             onChange={(e) => setEmail(e.target.value)} />
           <p>Contraseña</p>
           <input
@@ -55,9 +55,11 @@ export const LoginSection = () => {
             name="password"
             type="password"
             required
-            placeholder="Password"
+            placeholder='Ingresa contraseña'
             onChange={(e) => setPassword(e.target.value)} />
-          <input id="sign-in-button" type="button" className='button-login' value='Ingresar' onClick={onLogin} />
+          <input id="sign-in-button" type="button" className='button-login' button-login value='Ingresar' onClick={onLogin} />
+          <hr/>
+          <input type="button" id='button-problem'  value='Tengo problemas para acceder'/>
         </form>
       </div>
       <div class='img-container'>

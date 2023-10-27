@@ -21,14 +21,14 @@
   }
   
   .img-container{
-    width: 820px;
+    width: 1000px;
     overflow: hidden;
     display: flex;
   }
   .img-login {
     display: flex;
     justify-content: flex-end;
-    width: 915px;
+    width: 955px;
   }
   
   .loginform h2 {
@@ -48,13 +48,14 @@
    
   }
 
-  #button-login{
+  #sign-in-button{
     margin-top:10px;
     background-color: #003399;
     color:white;
     border: none;
     height: 40px;
     font-size:14px;
+    cursor:pointer;
   }
 
   .loginform input{
@@ -72,6 +73,7 @@
   .loginform hr{
     margin: 20px 0;
     border: 0,5px;
+    width: 380px;
   }
 
   #button-problem{
@@ -86,6 +88,12 @@
   @media (max-width: 1250px) {
     .img-container {
       display: none;
+    }
+
+    .loginform hr{
+      margin: 20px 0;
+      border: 0,5px;
+      width: 250px;
     }
   
     .loginform input {

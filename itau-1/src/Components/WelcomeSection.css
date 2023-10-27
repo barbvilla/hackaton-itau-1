@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+.pantalla-bienvenida{
+  padding-top:50px;
+}
 .btn-section{
   display: flex;
   align-items: center;
@@ -44,10 +46,6 @@
   margin: 10px 20px 50px 20px;
 }
 
-/* .titulo{
-  background-color: #003399;
-
-} */
 
 .titulo h3{
   /* color:white; */
@@ -55,17 +53,17 @@
   padding-bottom:5px;
 }
 
-.info li{
+.info-welcome li{
   margin: 5px 0;
   font-size: 15px;
   line-height: 30px;
 }
 
-.info{
+.info-welcome{
   padding:10px 0;
 }
 
-.info hr{
+.info-welcome hr{
 max-width: 400px;
 border-color: #fafafa5f;
 }

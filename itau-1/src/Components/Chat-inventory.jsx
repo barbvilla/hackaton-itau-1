@@ -18,13 +18,13 @@ const RobotIn = () => {
               backgroundColor: "#f7f8ff",
               textColor: "#303235",
               showAvatar: true,
-              avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
+              avatarSrc: "bot-icon.png",
             },
             userMessage: {
               backgroundColor: "#3B81F6",
               textColor: "#ffffff",
               showAvatar: true,
-              avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+              avatarSrc: "smile.png",
             },
             textInput: {
               placeholder: "Escribe tu pregunta",
