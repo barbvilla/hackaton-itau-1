@@ -1,6 +1,6 @@
 import './chatbotSection.css'
 
-const ChatbotSection = () => {
+const ChatbotSection = ({handleShowChatOne, handleShowChatTwo }) => {
   return (
     <>
 
@@ -10,7 +10,7 @@ const ChatbotSection = () => {
           <div class='paso-1'>
             <h1>Paso 1</h1>
             <p>¿No sabes cuál es tu bot?</p>
-            <img class='revisa-btn' src='mi-robot.png' alt='boton'></img>
+            <img class='revisa-btn' src='mi-robot.png' alt='boton' onClick={handleShowChatOne}></img>
           </div>
           <div class='siguiente'>
             <div>
@@ -27,7 +27,7 @@ const ChatbotSection = () => {
           <div class='paso-1'>
             <h1>Paso 2</h1>
             <p>¿Necesitas generar un ticket?</p>
-            <img class='revisa-btn' src='mi-robot.png' alt='boton'></img>
+            <img class='revisa-btn' src='mi-robot.png' alt='boton' onClick={handleShowChatTwo}></img>
           </div>
           <div class='siguiente'>
             <div>

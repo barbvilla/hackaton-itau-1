@@ -11,6 +11,10 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
   }
 
   nav p{

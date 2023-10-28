@@ -1,4 +1,3 @@
-
 .chat-section {
     display: flex;
     flex-direction: row;
@@ -7,6 +6,7 @@
 }
 .chatbox {
  align-items: center;
+/*  z-index: -1; */
 }
 
 .chat-1 {
