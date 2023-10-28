@@ -22,7 +22,7 @@ const WelcomeSection = () => {
       <div class='pantalla-bienvenida'>
         <h1 class='bienvenida'>¡Te damos la bienvenida a iBot!</h1>
         <div class='btn-section'>
-          <img alt='botón chatbot' src='asistencia-btn.png' class='btn-chatbot' onClick={handleClick}></img>
+          <button  class='btn-chatbot' onClick={handleClick}><img alt='botón chatbot' src='botcito.png'></img> ¿Necesitas ayuda?</button>
         </div>
         <section class='squares'>
         <div class='square-1'>

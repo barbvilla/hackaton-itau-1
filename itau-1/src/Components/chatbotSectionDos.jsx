@@ -10,14 +10,14 @@ const ChatbotSectionDos = () =>{
           <div class='paso-1'>
             <h1>Paso 2</h1>
             <p>¿Necesitas generar un ticket?</p>
-            <img class='revisa-btn' src='mi-robot.png' alt='boton'></img>
+            <button class='revisa-btn'><img  src='botcito.png' alt='boton'></img>Obten los datos para tu bot aquí</button>
           </div>
           <div class='siguiente'>
             <div>
             <p>Cuando obtengas tus datos</p>
             <h3>Continúa al paso 3</h3>
             </div>
-            <a href="#vistapaso-3"><img src='next.png' alt='next' class='next' ></img></a>
+            <a href="#vistapaso-3"><button alt='next' class='next' ><img src='truearrow.png' alt='arrow'></img></button></a>
           </div>
         </div>
       </div>

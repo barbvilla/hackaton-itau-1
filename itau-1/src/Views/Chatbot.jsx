@@ -19,7 +19,7 @@ export default function ChatBot() {
             <div className='chat-1'><RobotIn /></div>
           </div>
           <div className='abajo'>
-          <a href="#vistapaso-2"><img src='next.png' alt='next' class='next' ></img></a>
+          <a href="#vistapaso-2"><button alt='next' class='next' ><img src='truearrow.png' alt='arrow'></img></button></a>
           </div>
         </div>
         <div className='chat-section'>
@@ -27,6 +27,9 @@ export default function ChatBot() {
         <div className='chatbox'>
         <div className='chat-2'><RobotReInc /></div>
         </div>
+        <div className='abajo'>
+          <a href="#vistapaso-3"><button alt='next' class='next' ><img src='truearrow.png' alt='arrow'></img></button></a>
+          </div>
         </div>
         <div className='chat-section'>
           <ChatbotSectionTres />

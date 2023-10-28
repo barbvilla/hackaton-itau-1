@@ -11,6 +11,14 @@
     justify-content: center;
     margin: 0;
   }
+  @keyframes moverArribaAbajo {
+    0%, 100% {
+      transform: translateY(0); /* Estado inicial y final: no hay desplazamiento */
+    }
+    50% {
+      transform: translateY(-10px); /* En el medio de la animación: desplazamiento hacia arriba */
+    }
+  }
   
   .chatbox {
     align-items: center;
@@ -18,8 +26,9 @@
   }
   
   .chat-1, .chat-2 {
+    animation: moverArribaAbajo 1.5s ease-in-out infinite;
     border-radius: 20px;
-    margin: 70px 0 50px 0;
+    margin: 90px 0 50px 0;
     filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
   }
   
@@ -45,9 +54,9 @@
         margin-bottom: 0;
     }
 
-    .next{
-        width: 50%;
-    }
+  .next:hover{
+    background-color: #003399;;
+  }
 
     .chat-1, .chat-2 {
         margin: 60px 0 20px 0 ;

@@ -8,12 +8,12 @@ const RobotIn = () => {
         apiHost="https://itau-1-tf.onrender.com"
         theme={{          
           chatWindow: {
-            welcomeMessage: "Hola!, ¿en que te puedo ayudar?",
+            welcomeMessage: "¡Hola! Aquí puedes solicitar información sobre el bot que necesitas, por favor, descríbenos qué tarea necesitas realizar.",
             backgroundColor: "#ffffff",
-            height: 550,
-            width: 500,
+            height: 500,
+            width: 400,
             fontSize: 16,
-            poweredByTextColor: "#303235",
+            poweredByTextColor: "#FFFF",
             botMessage: {
               backgroundColor: "#f7f8ff",
               textColor: "#303235",
@@ -27,10 +27,10 @@ const RobotIn = () => {
               avatarSrc: "smile.png",
             },
             textInput: {
-              placeholder: "Escribe tu pregunta",
+              placeholder: "Describe tu robot",
               backgroundColor: "#ffffff",
               textColor: "#303235",
-              sendButtonColor: "#F25C05",
+              sendButtonColor: "#003399",
             }
           }
         }}
