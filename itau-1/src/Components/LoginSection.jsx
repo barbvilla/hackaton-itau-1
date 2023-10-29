@@ -54,21 +54,21 @@ export const LoginSection = () => {
             };
             const phoneAuthProvider = new PhoneAuthProvider(auth);
             // Send SMS verification code
-            setShowVerificationModal(true);
-            return phoneAuthProvider.verifyPhoneNumber(phoneInfoOptions, recaptchaVerifier)
+            return phoneAuthProvider
+              .verifyPhoneNumber(phoneInfoOptions, recaptchaVerifier)
               .then(function (verificationId) {
                 // Ask user for the SMS verification code. Then:
+                const verificationCode = prompt(
+                  'Ingresa el codigo enviado por sms'
+                );
                 const cred = PhoneAuthProvider.credential(
-                  verificationId, verificationCode);
-                debugger
+                  verificationId,
+                  verificationCode
+                );
                 const multiFactorAssertion =
                   PhoneMultiFactorGenerator.assertion(cred);
                 // Complete sign-in.
-                return resolver.resolveSignIn(multiFactorAssertion)
-              })
-              .then(function (userCredential) {
-                navigate('/welcome')
-                // User successfully signed in with the second factor phone number.
+                return resolver.resolveSignIn(multiFactorAssertion);
               });
           }
         }
