@@ -1,6 +1,6 @@
 import './chatbotSection.css'
 
-const ChatbotSectionUno = () => {
+const ChatbotSectionUno = ({handleShowChatUno}) => {
   return (
     <>
 
@@ -10,7 +10,7 @@ const ChatbotSectionUno = () => {
           <div class='paso-1'>
             <h1>Paso 1</h1>
             <p>¿No sabes cuál es tu robot?</p>
-            <button class='revisa-btn'><img  src='botcito.png' alt='boton'></img>Revisa cuál es tu robot aquí</button>
+            <button class='revisa-btn' onClick={handleShowChatUno}><img  src='botcito.png' alt='boton'></img>Revisa cuál es tu robot aquí</button>
           </div>
           <div class='siguiente'>
             <div>

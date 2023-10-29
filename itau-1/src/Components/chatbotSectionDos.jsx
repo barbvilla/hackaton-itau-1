@@ -1,7 +1,6 @@
 import './chatbotSection.css'
 
-
-const ChatbotSectionDos = () =>{
+const ChatbotSectionDos = ({handleShowChatDos}) =>{
   return(
     <>
      <div class='section-info' id='vistapaso-2'>
@@ -10,7 +9,7 @@ const ChatbotSectionDos = () =>{
           <div class='paso-1'>
             <h1>Paso 2</h1>
             <p>¿Necesitas generar un ticket?</p>
-            <button class='revisa-btn'><img  src='botcito.png' alt='boton'></img>Obten los datos para tu bot aquí</button>
+            <button class='revisa-btn' onClick={handleShowChatDos}><img  src='botcito.png' alt='boton'></img>Obten los datos para tu bot aquí</button>
           </div>
           <div class='siguiente'>
             <div>
