@@ -1,0 +1,167 @@
+/* .todo{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+} */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* esto es todo lo de la izquierda */
+.info{
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:150px;
+    margin-left:50px;
+}
+
+.paso-1{
+    justify-content: center;
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    margin-top:-50px;
+}
+
+.revisa-btn{
+    background-color: #003399;
+    border:none;
+    height: 60px;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+.revisa-btn:hover{
+    background-color: #F25C05;
+  }
+
+.revisa-btn img{
+   width: 15%;
+   padding-right: 3px;
+
+}
+.paso-1 h1{
+    font-size: 50px;
+}
+
+
+.paso-1 p{
+    font-size:20px;
+    margin:20px 0;
+}
+
+.siguiente{
+    display: flex;
+    margin:200px;
+    align-items: center;
+}
+
+.siguiente h3{
+    font-size:30px;
+    
+}
+
+.siguiente p{
+    font-size:20px;
+}
+
+@keyframes moverArribaAbajo {
+    0%, 100% {
+      transform: translateY(0); /* Estado inicial y final: no hay desplazamiento */
+    }
+    50% {
+      transform: translateY(-10px); /* En el medio de la animación: desplazamiento hacia arriba */
+    }
+  }
+  
+
+.next{
+    margin:0 20px;
+    /* animation: moverArribaAbajo 1.5s ease-in-out infinite; */
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #003399;
+    cursor:pointer;
+    border: none;
+
+
+}
+
+.next img{
+    width: 50%;
+}
+
+.next:hover{
+    transform: translateY(5px);
+    background-color: #F25C05;
+}
+
+#textArea{
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    outline:none;
+    border:none;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
+}
+
+::placeholder{
+}
+
+.text-btn{
+    width: 300px;
+    height: 60px;
+    font-size: 16px;
+    margin-left:80px;
+    background-color: #003399;
+    color:white;
+    border:none;
+    border-radius: 30px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+
+.text-btn:hover{
+    background-color: #F25C05;
+}
+@media (max-width: 1250px) {
+   .siguiente{
+    display:none;
+   }
+
+   .info{
+    margin:120px 0 -40px 0;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .paso-1{
+    width: 60%;
+   }
+
+
+   .paso-1 h1{
+    font-size: 20px;
+    margin-bottom: -20px;
+   }
+
+   #textArea{
+    width:300px;
+    margin-left: -40px;
+
+   }
+
+   .text-btn{
+    margin-bottom:100px;
+    margin-left: -40px;
+   }
+
+  }

@@ -1,7 +1,10 @@
+import UserNavbar from "../Components/UserNavbar"
+import WelcomeSection from "../Components/WelcomeSection"
 export default function Welcome() {
     return (
         <>
-        <h1>Welcome</h1>
+        <UserNavbar />
+        <WelcomeSection />
         </>
     )
 }

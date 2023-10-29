@@ -1,26 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
 .login {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.loginform {
+    text-align: left;
+  }
+  
+  .loginform {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin: 0 50px;
+    margin: 0px 50px;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .img-container{
+    width: 1000px;
+    overflow: hidden;
+    display: flex;
+  }
+  .img-login {
+    display: flex;
+    justify-content: flex-end;
+    width: 1000px;
+  }
+  
+  .loginform h2 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .loginform p{
+    margin-bottom: -7px;
+  }
+
+  .loginform h1{
+    font-size:40px;
+    margin-left: -35px;
+    line-height: 45px;
+    padding: 30px;
+   
+  }
+
+  #sign-in-button{
+    margin-top:10px;
+    background-color: #003399;
+    color:white;
+    border: none;
+    height: 40px;
+    font-size:14px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #sign-in-button:hover{
+    background-color: #F25C05;
 }
 
-.button-login {
+  .loginform input{
+    width: 380px;
+    height: 35px;
     margin: 10px 0;
-    width: 100px;
-    height: 30px;
-}
+    border-radius: 10px;
+    border: 2px solid #b6b6b6;
+  }
+  ::placeholder {
+    color: #b6b6b6;
+    padding-left:20px;
+    font-size: 14px;
+  }
+  .loginform hr{
+    margin: 20px 0;
+    border: 0,5px;
+    width: 380px;
+  }
 
-.img-login{
-    display:flex;
-    justify-content: end;
-    width: 800px;
-}
+  #button-problem{
+    background-color: white;
+    font-size: 14px;
+    color:rgb(83, 83, 83);
+  }
+
+  .login form hr{
+    border-color: #fafafa92;
+  }
+  @media (max-width: 1250px) {
+    .img-container {
+      display: none;
+    }
+
+    .loginform h1{
+      font-size:32px;
+      /* margin-bottom: -10px; */
+     
+    }
+
+    .loginform hr{
+      margin: 20px 0;
+      border: 0,5px;
+      width: 250px;
+    }
+  
+    .loginform input {
+      width: 250px;
+      max-width: 250px; /* Asegura que no se extienda más allá de 250px */
+    }
+
+    .loginform{
+      padding-top:50px;
+    }
+
+    .loginform h2{
+      font-size: 20px;
+    }
+  }

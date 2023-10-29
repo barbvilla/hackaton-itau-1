@@ -1,0 +1,39 @@
+.Security {
+    justify-content: center;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    
+    
+  }
+  
+  .Securityform h2,
+  .Securityform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align:middle;
+  }
+  
+  .Securityform label,
+  .Securityform input {
+    margin: 10px 0;
+  }
+  
+  .button-security {
+    background-color: #f25c05;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .button-validation {
+    background-color: #fff;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

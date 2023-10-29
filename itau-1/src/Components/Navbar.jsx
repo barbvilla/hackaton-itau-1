@@ -8,7 +8,7 @@ const Navbar = () => {
       <p>Inicio de sesión</p>
     </nav>
     <footer>
-      <p>Itaú</p></footer>
+      <p>Robotics 2023</p></footer>
     </>
   )
 }
