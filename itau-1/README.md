@@ -62,17 +62,8 @@ H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 
 ![Login](./public/images/Alta/login.png)    
 
-
-![Login2](./public/images/Alta/login2.png)    
-
-
+ 
 ![ErrorLogin](./public/images/Alta/tarjetaError.png)    
-
-
-![Login3](./public/images/Alta/login3.png)    
-
-
-![Login4](./public/images/Alta/login4.png)    
 
 
 ![Welcome](./public/images/Alta/welcome.png)    
