@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# IBOT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+* [1. Preámbulo](#1-preámbulo)
+* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [3. Historias de Usuarios](#3-historias-de-usuarios)
+* [4. Prototipo Baja Fidelidad](#4-Prototipo-Baja-Fidelidad)
+* [5. Prototipo Alta Fidelidad](#4-Prototipo-Alta-Fidelidad)
+* [4. Producto Final](#4-Producto-Final)
 
-In the project directory, you can run:
+## 1. Preámbulo
+La plataforma de Gestión de Requerimientos del Banco Itaú abarca tanto aplicativos web como robots. En la actualidad, existen tres categorías principales de requerimientos en el área de Robotics, que incluyen RPA/Robot, Software/WorkFlow/BBDD y Soporte TI Robotic. Cada una de estas categorías cuenta con diversos tipos de requerimientos y solicitudes. El objetivo de este proyecto consistió en desarrollar un prototipo de asistente virtual, diseñado para facilitar la solicitud de requerimientos por parte de los usuarios o la notificación de incidentes relacionados con la plataforma de RPA del Banco. Este asistente se destaca por su capacidad para entender y procesar en lenguaje natural.
 
-### `npm start`
+## 2. Resumen del proyecto
+Desarrollo del proyecto IBOT, el cual   es  un asistente virtual que orienta al usuario en la solicitud de requerimientos y reporte de incidentes en la plataforma RPA del Banco.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 3. Historias de Usuarios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+H1. Yo como Ituber quiero iniciar sesion en el IBot con mi email y contraseña.
+H2. Yo como Ituber quiero poder ingresar el código de verificación para validar ingreso con mi clave y usuario.
+H3. Yo como Ituber quiero tener un espacio de bienvenida con novedades de ItauBerAsistant, preguntas frecuentes sobre su uso y un boton para ingresar en él.
+H4. Yo como Ituber quiero interactuar con iBot para poder levantar un requerimiento o reportar un incidente.
+H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 
-### `npm test`
+## 4.Prototipo Baja Fidelidad
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Login](./public/images/Baja/image1.png)
+![Welcome](./public/images/Baja/image2.png)
+![Robot](./public/images/Baja/image3.png)
+![Robot1](./public/images/Baja/image4.png)
+![Robot2](./public/images/Baja/image5.png)
+![Robot3](./public/images/Baja/image6.png)
+![Robot4](./public/images/Baja/image7.png)
 
-### `npm run build`
+## 5.Prototipo Alta Fidelidad
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Login](./public/images/Alta/login.png)
+![Login2](./public/images/Alta/login2.png)
+![ErrorLogin](./public/images/Alta/tarjeta error.png)
+![Login3](./public/images/Alta/login3.png)
+![Login4](./public/images/Alta/login4.png)
+![Welcome](./public/images/Alta/welcome.png)
+![Robot1](./public/images/Alta/robot1.png)
+![Robot2](./public/images/Alta/robot2.png)
+![Robot3](./public/images/Alta/robot3.png)
+![Robot4](./public/images/Alta/robot4.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 6. Producto final
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Login](./public/images/Proyecto/login.png)
+![Welcome](./public/images/Proyecto/welcome.png)
+![Robot1](./public/images/Proyecto/robot1.png)
+![Robot2](./public/images/Proyecto/robot2.png)
+![Robot3](./public/images/Proyecto/robot3.png)
