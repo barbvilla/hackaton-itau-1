@@ -22,7 +22,7 @@ export const LoginSection = () => {
   const [showVerificationModal, setShowVerificationModal] = useState(false);
 
   const toggleModal = () => {
-    setShowModal(!showModal);
+    setShowModal(false);
   };
 
   const onLogin = (e) => {
@@ -56,13 +56,11 @@ export const LoginSection = () => {
             // Send SMS verification code
             setShowVerificationModal(true);
             return phoneAuthProvider.verifyPhoneNumber(phoneInfoOptions, recaptchaVerifier)
-              .then(function () {
-                setShowVerificationModal(true);
-              })
               .then(function (verificationId) {
                 // Ask user for the SMS verification code. Then:
                 const cred = PhoneAuthProvider.credential(
                   verificationId, verificationCode);
+                debugger
                 const multiFactorAssertion =
                   PhoneMultiFactorGenerator.assertion(cred);
                 // Complete sign-in.
@@ -74,6 +72,7 @@ export const LoginSection = () => {
               });
           }
         }
+        setShowModal(true)
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(errorCode, errorMessage)
