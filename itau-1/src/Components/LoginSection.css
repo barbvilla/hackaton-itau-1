@@ -21,14 +21,14 @@
   }
   
   .img-container{
-    width: 820px;
+    width: 1000px;
     overflow: hidden;
     display: flex;
   }
   .img-login {
     display: flex;
     justify-content: flex-end;
-    width: 915px;
+    width: 1000px;
   }
   
   .loginform h2 {
@@ -41,21 +41,27 @@
   }
 
   .loginform h1{
-    font-size:35px;
+    font-size:40px;
     margin-left: -35px;
     line-height: 45px;
     padding: 30px;
    
   }
 
-  #button-login{
+  #sign-in-button{
     margin-top:10px;
     background-color: #003399;
     color:white;
     border: none;
     height: 40px;
     font-size:14px;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
   }
+
+  #sign-in-button:hover{
+    background-color: #F25C05;
+}
 
   .loginform input{
     width: 380px;
@@ -72,6 +78,7 @@
   .loginform hr{
     margin: 20px 0;
     border: 0,5px;
+    width: 380px;
   }
 
   #button-problem{
@@ -87,9 +94,29 @@
     .img-container {
       display: none;
     }
+
+    .loginform h1{
+      font-size:32px;
+      /* margin-bottom: -10px; */
+     
+    }
+
+    .loginform hr{
+      margin: 20px 0;
+      border: 0,5px;
+      width: 250px;
+    }
   
     .loginform input {
       width: 250px;
       max-width: 250px; /* Asegura que no se extienda más allá de 250px */
+    }
+
+    .loginform{
+      padding-top:50px;
+    }
+
+    .loginform h2{
+      font-size: 20px;
     }
   }

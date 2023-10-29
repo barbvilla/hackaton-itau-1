@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+.pantalla-bienvenida{
+  padding-top:50px;
+}
 .btn-section{
   display: flex;
   align-items: center;
@@ -18,9 +20,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 280px;
-  padding: 40px 0;
+  padding: 10px 0;
   cursor: pointer;
+  background-color: #003399;
+  border:none;
+  height: 60px;
+  color:white;
+  font-size:15px;
+  height:60px;
+  margin-bottom: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-chatbot:hover{
+  background-color: #F25C05;
+}
+
+.btn-chatbot img{
+ width: 15%;
+ padding-right: 3px;
+
 }
 .squares {
   display: flex;
@@ -44,10 +63,6 @@
   margin: 10px 20px 50px 20px;
 }
 
-/* .titulo{
-  background-color: #003399;
-
-} */
 
 .titulo h3{
   /* color:white; */
@@ -55,17 +70,17 @@
   padding-bottom:5px;
 }
 
-.info li{
+.info-welcome li{
   margin: 5px 0;
   font-size: 15px;
   line-height: 30px;
 }
 
-.info{
+.info-welcome{
   padding:10px 0;
 }
 
-.info hr{
+.info-welcome hr{
 max-width: 400px;
 border-color: #fafafa5f;
 }

@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'itauFontBold';
+  src: url('D:\Desktop\talent-fest\hackaton-itau-1\itau-1\public\fonts\Itau Text Bold.otf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'itauFont';
+  src: url('D:\Desktop\talent-fest\hackaton-itau-1\itau-1\public\fonts\Itau Text.otf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'itauFontLight';
+  src: url('D:\Desktop\talent-fest\hackaton-itau-1\itau-1\public\fonts\Itau Text Light.otf') format('truetype'); 
+}
+
+h1{
+  font-family: 'itauFontBold', sans-serif;
+}
+
+ h2{
+  font-family: 'itauFont', sans-serif;
+}
+
+p{
+  font-family: 'itauFontLight', sans-serif;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -3,10 +3,10 @@ import './UserNavbar.css';
 const Navbar = () => {
   return (
     <>
-    <nav>
+    <nav class='nav-2'>
       <img alt='logo'src='itau.png'></img>
-      <p>Inicio de sesión</p>
-      <div class='cerrar'>
+      <p>Espacio de asistencia</p>
+      <div class='cerrar-sesion'>
       <p>Cerrar sesión</p><img alt='logOut' src='out.png' class='logOut'></img>
       </div>
     </nav>
