@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'itauFontBold';
-  src: url('/Users/barbvilla/Desktop/Laboratoria/hackaton/itau-1/public/fonts/Itau Text Bold.otf') format('truetype'); 
+  src: url('https://github.com/barbvilla/hackaton-itau-1/blob/master/itau-1/public/fonts/Itau%20Text%20Bold.otf') format('truetype'); 
 }
 
 @font-face {
   font-family: 'itauFont';
-  src: url('/Users/barbvilla/Desktop/Laboratoria/hackaton/itau-1/public/fonts/Itau Text.otf') format('truetype'); 
+  src: url('https://github.com/barbvilla/hackaton-itau-1/blob/master/itau-1/public/fonts/Itau%20Text.otf') format('truetype'); 
 }
 
 @font-face {
   font-family: 'itauFontLight';
-  src: url('/Users/barbvilla/Desktop/Laboratoria/hackaton/itau-1/public/fonts/Itau Text Light.otf') format('truetype'); 
+  src: url('https://github.com/barbvilla/hackaton-itau-1/blob/master/itau-1/public/fonts/Itau%20Text%20Light.otf') format('truetype'); 
 }
 
 h1{
