@@ -56,7 +56,7 @@ H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 
 
 
-## 5.Prototipo Alta Fidelidad  
+## 5.Prototipo Media Fidelidad  
 
 
 
@@ -72,7 +72,7 @@ H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 ![Robot1](./itau-1/public/images/Alta/robot1.png)    
 
 
-![Robot2](./itau-1/public/images/Alta/robot2.png)    
+![Robot2](./itau-1/public/images/Alta/robot2 .png)    
 
 
 ![Robot3](./itau-1/public/images/Alta/robot3.jpg)    
