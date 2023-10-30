@@ -75,7 +75,7 @@ H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 ![Robot2](./itau-1/public/images/Alta/robot2.png)    
 
 
-![Robot3](./itau-1/public/images/Alta/robot3.png)    
+![Robot3](./itau-1/public/images/Alta/robot3.jpg)    
 
 
 ![Robot4](./itau-1/public/images/Alta/robot4.png)    
