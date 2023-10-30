@@ -34,25 +34,25 @@ H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 ## 4.Prototipo Baja Fidelidad
 
 
-![Login](./public/images/Baja/image1.png)    
+![Login](./itau-1/public/images/Baja/image1.png)    
 
 
-![Welcome](./public/images/Baja/image2.png)    
+![Welcome](./itau-1/public/images/Baja/image2.png)    
 
 
-![Robot](./public/images/Baja/image3.png)    
+![Robot](./itau-1/public/images/Baja/image3.png)    
 
 
-![Robot1](./public/images/Baja/image4.png)    
+![Robot1](./itau-1/public/images/Baja/image4.png)    
 
 
-![Robot2](./public/images/Baja/image5.png)    
+![Robot2](./itau-1/public/images/Baja/image5.png)    
 
 
-![Robot3](./public/images/Baja/image6.png)    
+![Robot3](./itau-1/public/images/Baja/image6.png)    
 
 
-![Robot4](./public/images/Baja/image7.png)      
+![Robot4](./itau-1/public/images/Baja/image7.png)      
 
 
 
@@ -60,40 +60,40 @@ H5. Yo como ituber quero obtener un número de ticket de la solicitud creada.
 
 
 
-![Login](./public/images/Alta/login.png)    
+![Login](./itau-1/public/images/Alta/login.png)    
 
  
-![ErrorLogin](./public/images/Alta/tarjetaError.png)    
+![ErrorLogin](./itau-1/public/images/Alta/tarjetaError.png)    
 
 
-![Welcome](./public/images/Alta/welcome.png)    
+![Welcome](./itau-1/public/images/Alta/welcome.png)    
 
 
-![Robot1](./public/images/Alta/robot1.png)    
+![Robot1](./itau-1/public/images/Alta/robot1.png)    
 
 
-![Robot2](./public/images/Alta/robot2.png)    
+![Robot2](./itau-1/public/images/Alta/robot2.png)    
 
 
-![Robot3](./public/images/Alta/robot3.png)    
+![Robot3](./itau-1/public/images/Alta/robot3.png)    
 
 
-![Robot4](./public/images/Alta/robot4.png)    
+![Robot4](./itau-1/public/images/Alta/robot4.png)    
 
 
 
 ## 6. Producto final  
 
-![Login](./public/images/Proyecto/login.png)    
+![Login](./itau-1/public/images/Proyecto/login.png)    
 
 
-![Welcome](./public/images/Proyecto/welcome.png)    
+![Welcome](./itau-1/public/images/Proyecto/welcome.png)    
 
 
-![Robot1](./public/images/Proyecto/robot1.png)    
+![Robot1](./itau-1/public/images/Proyecto/robot1.png)    
 
 
-![Robot2](./public/images/Proyecto/robot2.png)    
+![Robot2](./itau-1/public/images/Proyecto/robot2.png)    
 
 
-![Robot3](./public/images/Proyecto/robot3.png)    
+![Robot3](./itau-1/public/images/Proyecto/robot3.png)    
