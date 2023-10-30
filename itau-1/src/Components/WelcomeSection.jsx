@@ -1,6 +1,3 @@
-
-import { signOut } from 'firebase/auth';
-import { auth } from '../firebase';
 import { useNavigate } from 'react-router-dom';
 import './WelcomeSection.css';
 
@@ -11,11 +8,6 @@ const WelcomeSection = () => {
     navigate('/chatbot')
   }
 
-  const logOut = () => {
-    signOut(auth).then(() => {
-      navigate('/login');
-    })
-  }
   return (
 
       <>

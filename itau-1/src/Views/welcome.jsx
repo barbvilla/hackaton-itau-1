@@ -4,7 +4,7 @@ export default function Welcome() {
     return (
         <>
         <UserNavbar />
-        <WelcomeSection />
+        <WelcomeSection /> 
         </>
     )
 }

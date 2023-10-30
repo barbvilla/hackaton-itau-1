@@ -59,7 +59,7 @@ html {
 
 .siguiente{
     display: flex;
-    margin:200px;
+    margin: 200px;
     align-items: center;
 }
 
@@ -70,6 +70,30 @@ html {
 
 .siguiente p{
     font-size:20px;
+}
+
+.section-ticket{
+  margin: 200px;;
+}
+
+.info-ticket{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.ticket-box{
+  border: solid 3px #003399;
+  background-color: white;
+  margin: 0 80px;
+  padding: 20px;
+  width: 400px;
+  height: 350px;
+  border-radius: 25px;
+  filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.24));
+  animation: moverArribaAbajo 1.5s ease-in-out infinite;
 }
 
 @keyframes moverArribaAbajo {
